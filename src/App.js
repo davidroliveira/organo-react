@@ -16,7 +16,7 @@ function App() {
   const [colaboradores, setColaboradores] = useState([]);
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
-    debugger //palavar reservada ara depuração
+    //debugger //palavar reservada ara depuração
     setColaboradores([...colaboradores, colaborador]);
   };
 
